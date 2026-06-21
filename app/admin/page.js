@@ -40,7 +40,7 @@ export default async function AdminDashboard() {
       <div className="card glass" style={{ marginTop: '40px' }}>
         <h3>Quick Actions</h3>
         <div style={{ display: 'flex', gap: '15px', marginTop: '20px' }}>
-          <a href="/admin/products/new" className="btn-primary">Add New Product</a>
+          <a href="/admin/products" className="btn-primary">Add New Product</a>
           <a href="/admin/customers" className="btn-primary">Send WhatsApp Message</a>
         </div>
       </div>
