@@ -1,5 +1,7 @@
 import { openDb } from '@/lib/db';
 
+export const dynamic = 'force-dynamic';
+
 export default async function AdminDashboard() {
   const db = await openDb();
   
